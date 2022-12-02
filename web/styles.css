@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700;800&family=Overpass:wght@500&display=swap);
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #141414 !important;
+    background-image: url(./assets/img/peakpx.jpg);
+    background-size: cover;
+}
+
+* {
+    font-family: 'Anek Devanagari', Helvetica, Arial, sans-serif;
+}
+
+.panel {
+    color: #F06D18;
+    background-color: #141414;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.panel-cabeza {
+    padding: 10px;
+}
+
+.panel-cuerpo {
+    padding: 10px;
+}
+
+.panel-pie {
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+.tabla-ladder {
+    border-radius: 5px;
+    background-color: #0A0A0A;
+}
+
+.tabla-cabecera {
+    padding: 10px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 5px #0A0A0A;
+    border-top-left-radius: 5px;
+    border-style: solid;
+}
+
+.lista-equipo {
+    border-top: 0;
+    border-bottom: 1px #e4592660;
+    border-right: 0;
+    border-left: 5px #299642;
+    border-style: solid;
+    padding: 10px;
+    color: #FCE7D9;
+    margin-bottom: 1px;
+}

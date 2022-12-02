@@ -1,0 +1,8 @@
+:host {
+    /* This is equivalent of the 'body' selector of a page. */
+}
+
+.centro-pagina {
+    background-color: #0A0A0A;
+    height: 100%;
+}

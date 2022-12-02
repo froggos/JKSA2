@@ -1,0 +1,30 @@
+<div class="tabla-ladder">
+    <div class="tabla-cabecera">
+        <div class="row">
+            <div class="col col-lg-2">Rango</div>
+            <div class="col col-lg">Equipo</div>
+            <div class="col col-lg">Miembros</div>
+            <div class="col col-lg-2">Puntaje</div>
+        </div>
+    </div>
+    <div class="lista-equipos" *ngFor="let equipo of equipos;let i = index">
+        <div class="lista-equipo">
+            <div class="row">
+                <div class="col col-lg-2 espaciador">
+                    #{{i + 1}}
+                </div>
+                <div class="col col-lg">
+                    {{equipo.nombre}}
+                </div>
+                <div class="col col-lg">
+                    <div *ngFor="let jugador of equipo.jugadores">
+                        {{jugador.nombre}}
+                    </div>
+                </div>
+                <div class="col col-lg-2">
+                    {{equipo.elo}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.barra-navegacion {
+    background-color: #141414 !important;
+    width: 100% !important;
+    padding: 8px;
+    position: absolute;
+}
+
+.barra-centro {
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-centro .nav-item {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.barra-centro .nav-item:hover  { 
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+.nav-link { 
+    font-size: 17px;
+    font-weight: bold;
+    color: #F06D18;
+}
+
+.log-boton:hover {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+}

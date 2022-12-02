@@ -1,0 +1,14 @@
+.centro-resumen {
+    padding: 10px;
+}
+
+hr {
+    height: 3px;
+    border-radius: 10px;
+}
+
+@media (max-width: 420px) {
+    .separador-primer-panel {
+        margin-top: 100px !important;
+    }
+}

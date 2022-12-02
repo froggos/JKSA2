@@ -1,0 +1,38 @@
+<nav class="nav barra-navegacion">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1">
+                <div class="barra-inicio">
+                    <li class="nav-item">
+                        <a [routerLink]="RoutePaths.resumen.toUrl()" class="nav-link active">
+                            Inicio
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="col">
+                <div class="barra-centro">
+                    <li class="nav-item">
+                        <a [routerLink]="RoutePaths.resumen.toUrl()" class="nav-link active">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="RoutePaths.miembros.toUrl()" class="nav-link">
+                            Miembros
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="col">
+                <div class="barra-final">
+                    <li class="nav-item log-boton" style="float: right;">
+                        <a class="nav-link">
+                            Iniciar sesion
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
